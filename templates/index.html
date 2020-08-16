@@ -1,0 +1,43 @@
+{% extends 'base.html' %}
+{% block content %}
+
+<section id="boggle">
+    <div class="container">
+        <div class="row  mt-5">
+            <h1>Boggle!</h1>
+        </div>
+        <div class="row justify-content-center" style="margin-top: -10%">
+            <div class="col-8">
+                <table class="board" align="center" border="1">
+                    <tbody>
+                        {% for row in board %}
+                        <tr>
+                            {% for cell in row %}
+                            <td>{{ cell }}</td>
+                            {% endfor %}
+                        </tr>
+                        {% endfor %}
+                    </tbody>
+                </table>
+
+            </div>
+            <div class="col">
+                <div class="row">
+
+                    <form id="guess_form">
+                        <input name="word_guess" id="search-query">
+                        <button>Submit a word!</button>
+                    </form>
+                    <div id="score_box">
+                        Score:
+                        <div id="score">
+                        </div>
+                        <ul id="added_words"> Added Words:</ul>
+                        <div id="message_box"></div>
+
+                        <button id="reset">Play Again</button>
+                    </div>
+                </div>
+            </div>
+</section>
+{% endblock %}

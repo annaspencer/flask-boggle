@@ -1,0 +1,81 @@
+body {
+    background: url(https://media.giphy.com/media/2eKfFHjb30D9tDdJ59/source.gif);
+    
+}
+
+h1 {
+    text-align: center;
+    color:#d5fc4a;
+    font-family: 'Bangers', cursive;
+    font-size:36px;
+    padding: 20px;
+    margin-left: 20%;
+    background-color: blue;
+    opacity: 90%;
+    height: 100px;
+    width: 250px;
+   
+}
+
+table {
+    border-color: rgb(0, 140, 255);
+    width:600px;
+    height:450px;
+    margin-top: 15%;
+    text-align: center;
+    background-color:rgb(8, 3, 54);
+    color:rgb(92, 245, 46);
+    font-family: 'Bree Serif', serif;
+    font-size:36px;
+}
+
+form {
+    text-align: center;
+    color:rgb(21, 8, 131);
+    font-family: 'Bree Serif', serif;
+    font-size:24px;
+    display: flex;
+    opacity: 70%;
+    
+}
+
+ul
+{
+position: relative;
+color: rgb(11, 245, 116);
+font-family: 'Bree Serif', serif;
+font-size:36px;
+text-align: center;
+list-style-type: none;
+}
+
+#score_box {
+background-color: rgb(22, 9, 82);
+padding-right: 20px;
+color:rgb(229, 255, 0);
+font-family: 'Bree Serif', serif;
+font-size:36px;
+text-align: center;
+opacity: 90%;
+}
+#added_words{
+    text-align: center;
+    
+}
+
+#added_words li {
+    font-size: 24px ;
+}
+#reset {
+background-color: orchid;
+color: rgb(115, 253, 60);
+font-family: 'Bree Serif', serif;
+font-size:24px;
+text-align: center;
+opacity: 90%;
+border-radius: 20%;
+}
+.end {
+    visibility: hidden;
+}
+
